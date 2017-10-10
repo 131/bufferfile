@@ -1,0 +1,36 @@
+{
+  "scripts": {
+    "mocha": "node node_modules/mocha/bin/_mocha",
+    "test": "node node_modules/istanbul/lib/cli.js cover --report text-summary --report html --report lcov  node_modules/mocha/bin/_mocha --",
+    "coveralls": "npm install coveralls && node ./node_modules/coveralls/bin/coveralls.js < ./coverage/lcov.info"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "istanbul": "^1.1.0-alpha.1",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {},
+  "name": "bufferfile",
+  "description": "Bufferfile - a nodejs file descriptor abstraction that you can use with [Buffer](https://nodejs.org/api/buffer.html) signatures.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/131/bufferfile.git"
+  },
+  "keywords": [
+    "buffer",
+    "fs",
+    "file",
+    "bf"
+  ],
+  "author": "Francois Leurent <131.js@cloudyks.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/131/bufferfile/issues"
+  },
+  "homepage": "https://github.com/131/bufferfile#readme"
+}
