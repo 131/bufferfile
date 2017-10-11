@@ -1,4 +1,4 @@
-Bufferfile - a nodejs file descriptor abstraction that you can use with [Buffer](https://nodejs.org/api/buffer.html) signatures.
+[bf](https://github.com/131/bufferfile) - a nodejs *file* descriptor abstraction that you can use with *[Buffer](https://nodejs.org/api/buffer.html)* signatures.
 
 # Motivation
 The stream API cannot seek easily, [bl](https://www.npmjs.com/package/bl) works fine, but load all your file in memory (that i cannot afford).
@@ -6,14 +6,14 @@ The fs API is "good enough" yet i need the buffer signatures (readUInt & co) - h
 
 [![Build Status](https://travis-ci.org/131/bufferfile.svg?branch=master)](https://travis-ci.org/131/bufferfile)
 [![Coverage Status](https://coveralls.io/repos/github/131/bufferfile/badge.svg?branch=master)](https://coveralls.io/github/131/bufferfile?branch=master)
-[![Version](https://img.shields.io/npm/v/bufferfile.svg)](https://www.npmjs.com/package/bufferfile)
+[![Version](https://img.shields.io/npm/v/bf.svg)](https://www.npmjs.com/package/bf)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 
 
 
 # API/example
 ```
-const bf = require('bufferfile');
+const bf = require('bf');
 
   //opens file descriptor
 var file = new bf('somefile.txt', 'r');
@@ -34,3 +34,5 @@ bufferfile provide an internal offset so you can
 
 # Credits
 * [131](https://github.com/131) - author
+* Joshua Holbrook who gave me the package name
+* [bl](http://npmjs.com/package/bl) - good complementary

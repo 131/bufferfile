@@ -10,9 +10,9 @@
     "mocha": "^3.1.2"
   },
   "dependencies": {},
-  "name": "bufferfile",
-  "description": "Bufferfile - a nodejs file descriptor abstraction that you can use with [Buffer](https://nodejs.org/api/buffer.html) signatures.",
-  "version": "1.0.0",
+  "name": "bf",
+  "description": "Bf - bufferfile - a nodejs file descriptor abstraction that you can use with [Buffer](https://nodejs.org/api/buffer.html) signatures.",
+  "version": "0.0.0",
   "main": "index.js",
   "directories": {
     "test": "test"
