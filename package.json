@@ -12,7 +12,7 @@
   "dependencies": {},
   "name": "bf",
   "description": "Bf - bufferfile - a nodejs file descriptor abstraction that you can use with [Buffer](https://nodejs.org/api/buffer.html) signatures.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "index.js",
   "directories": {
     "test": "test"
